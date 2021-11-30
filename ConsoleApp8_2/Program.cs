@@ -63,7 +63,6 @@ namespace ConsoleApp3_4
                 using (StreamReader sr = new StreamReader(path))
                 {
                     text = sr.ReadToEnd();
-                    //text = text.Replace("\r\n", "");
                     string[] nums = new string[10];
                     nums = text.Split(' ');
                    
